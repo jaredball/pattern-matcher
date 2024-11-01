@@ -125,10 +125,4 @@ The implementation includes error handling for:
 - Mismatched parentheses
 - Malformed patterns
 - Invalid token sequences
-
-## Development Notes
-
-- Keep local repository synchronized with GitHub using `git pull`
-- Maintain synchronization with assignment repository
-- Follow the provided type definitions for tokens and AST nodes
-- Avoid using Scala's regular expression library except for individual character matching
+  
