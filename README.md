@@ -96,7 +96,6 @@ case class Alternation(left: Exp, right: Exp) extends Exp
 
 ## Testing
 
-The project includes test cases for:
 - Tokenization
 - Parsing
 - Pattern matching
@@ -107,12 +106,3 @@ tokenize("ab") = List(Tok_Char('a'), Tok_Char('b'), Token.Tok_End)
 parse("ab") = Concat(C('a'), C('b'))
 matcher("ab", "ab") = true
 ```
-
-## Error Handling
-
-The implementation includes error handling for:
-- Invalid characters in patterns
-- Mismatched parentheses
-- Malformed patterns
-- Invalid token sequences
-  
