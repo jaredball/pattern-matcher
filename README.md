@@ -1,4 +1,4 @@
-## Overview
+# Pattern Matcher
 
 This project implements a pattern matcher that supports:
 - Character matching (letters and digits)
