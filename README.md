@@ -9,16 +9,6 @@ This project implements a pattern matcher that supports:
 
 The implementation follows a formal grammar and uses recursive descent parsing to build an Abstract Syntax Tree (AST).
 
-## Project Structure
-
-```
-src/
-├── Exp.scala        # AST types and pattern matching logic
-├── RDP.scala        # Recursive descent parser implementation
-├── Token.scala      # Token definitions and scanner
-└── main.scala       # Main program entry point
-```
-
 ## Features
 
 ### Supported Operations
